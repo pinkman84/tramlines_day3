@@ -65,7 +65,7 @@ Return Erik's hometown - users["Eric"][:hometown]
 Return the array of Erik's favorite numbers - users["Erik"][:favorite_numbers]
 Return the type of Anil's pet Colin - users["Anil"][:pets][:colin]
 Return the smallest of Erik's favorite numbers - users["Erik"][:favorite_numbers].min
-Return an array of Anil's favorite numbers that are even - *
+Return an array of Anil's favorite numbers that are even - users["Anil"][:favorite_numbers].even
 Return an array of Jonathans favourite numbers, sorted in ascending order and excluding duplicates - users['Jonathan'][:favourite_number].sort.uniq
 Add the number 7 to Erik's favorite numbers - users['Erik'][:favorite_numbers].push(7)
 Change Erik's hometown to Edinburgh - users['Erik'][:home_town] = 'Edinburgh'

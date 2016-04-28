@@ -1,3 +1,8 @@
+def even_num
+  if num % 2 == 0
+    print num
+  end
+end
 
 users = {
   "Jonathan" => {
@@ -39,15 +44,24 @@ users = {
   },
 }
 
-puts users
+print users["Anil"][:favorite_numbers].even
 
-lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street', 'York Place']
+# lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street', 'York Place']
 
-# for loop
-for stop in lines do
-  puts stop
+# # for loop
+# for stop in lines do
+#   puts stop
 
-end
+# end
+
+# erik_array = []
+# for num in users["Erik"][:favorite_numbers]
+#     if num % 2 == 0
+#       erik_array.push(num)
+#     end
+# end
+
+# puts erik_array
 
 
 # this function will print everything even if you add to the array
@@ -56,41 +70,26 @@ end
 
 #while loop --------------------
 
-i = 0
+# i = 0
 
-while i < lines.length do
-  puts lines[i]
-  i += 1
-end
-
-
-#until loop ----------------------
-until i > lines.length do
-  puts lines[i]
-  i += 1
-end
+# while i < lines.length do
+#   puts lines[i]
+#   i += 1
+# end
 
 
-#loop------------------------
-for stop in lines
+# #until loop ----------------------
+# until i > lines.length do
+#   puts lines[i]
+#   i += 1
+# end
 
-  puts "the current stop is #{stop}"
+
+# #loop------------------------
+# for stop in lines
+
+#   puts "the current stop is #{stop}"
 
  
-end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# end
 
